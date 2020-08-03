@@ -8,7 +8,6 @@ class Shoe
     @brand = brand
     BRANDS << brand if !BRANDS.include?(brand)
   end
-  end
 
   def cobble
     self.condition = "new"
